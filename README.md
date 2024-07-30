@@ -15,7 +15,7 @@ XGBoost anti-PD1/PD-L1 immunotherapy model for hepatocellular carcinoma patients
 ## Step 3: Directly execute the Python script.
         Rscript CSP_immunotherapy_model.R  
 ## Step 4: Inspect the output file.
-After executing the aforementioned R script, you will obtain a file named "Output_file.csv"; "response_probability" denotes the anti-PD1/PD-L1 response probability of patients with hepatocellular carcinoma, with higher response probability indicating better prognosis. Our model might also be applicable in the immunotherapy of urothelial  carcinoma and melanoma with using anti-PD1/PD-L1.
+After executing the aforementioned R script, you will obtain a file named "Output_file.csv"; "response_probability" denotes the anti-PD1/PD-L1 response probability of patients with hepatocellular carcinoma, with higher response probability indicating better prognosis. Our model might also be applicable in the immunotherapy of urothelial  cancer and melanoma with using anti-PD1/PD-L1.
 
 
 
