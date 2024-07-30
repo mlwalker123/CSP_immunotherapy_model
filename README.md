@@ -4,7 +4,8 @@ XGBoost anti-PD1/PD-L1 immunotherapy model for hepatocellular carcinoma patients
         We recommend the use of conda for managing R version and R package version.
         R 4.2.2  
         xgboost 1.6.0.1  
-        Tip: If you are unable to ensure that the version of R is 4.2.2 within the conda environment, the version 4.2.0 is also acceptable.
+        Tip: If you are unable to ensure that the version of R is 4.2.2 within the conda environment,  
+        the version 4.2.0 is also acceptable.
 ## Step 2: Establish a new working directory including following files.
         /new working directory  
           |_ CSP_immunotherapy_model.R  
