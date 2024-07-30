@@ -10,7 +10,7 @@ We recommend the use of conda for managing R version and R package versions.
           |_ CSP_immunotherapy_model.R  
           |_ Input_File.csv  
           |_ Trained_XGBoost.model   
-       Tip: The "Input_File.csv" document is fundamentally a gene expression matrix (TPM format);    
+       Tip: The "Input_File.csv" document is fundamentally a gene expression matrix (TPM format);     
             when using it, please replace the provided file with your own.  
 ## Step 3: Directly execute the Python script.
         Rscript CSP_immunotherapy_model.R  
