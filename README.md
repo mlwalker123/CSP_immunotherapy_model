@@ -1,5 +1,5 @@
 # CSP_immunotherapy_model
-XGBoost anti-PD1/PD-L1 immunotherapy model based on cGAS-STING-centric pathways
+XGBoost anti-PD1/PD-L1 immunotherapy model for hepatocellular carcinoma patients based on cGAS-STING-centric pathways
 ## Step 1: Configure  the  working  environment.
         We recommend the use of conda for managing R version and R package versions.
         R 4.2.2  
