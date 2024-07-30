@@ -1,0 +1,10 @@
+library(xgboost)
+model_xgb <- xgb.load("Trained_XGBoost.model")
+intersected_genes = c("BRCA1","HMGB2","TOP2A","CDC6","IL1RL1","POU2F1","PTH1R","MALL","PLEK2","CEBPD","IRS2")
+data_TPM=read.csv("Input_File.csv",row.names = 1)
+data_TPM1=log2(data_TPM+1)
+data_TPM2=data_TPM1[intersected_genes,]
+data_TPM3=t(data_TPM2)
+data_prediction <- predict(model_xgb, data_TPM3)
+prediction_result=data.frame(response_probability=data_prediction,row.names = colnames(data_TPM))
+write.csv(prediction_result,"Output_File.csv",row.names = T)
