@@ -14,8 +14,8 @@ We recommend the use of conda for managing R version and R package versions.
             when using it, please replace the provided file with your own.  
 ## Step 3: Directly execute the Python script.
         Rscript CSP_immunotherapy_model.R  
-## Step 4: Inspect the output file.R
-After executing the aforementioned R script, you will obtain a file named "Output_file.csv"; "response_probability" denotes the anti-PD1/PD-L1 response probability of patients with hepatocellular carcinoma, with higher response probability indicating better prognosis. Our model may also be applicable in the immunotherapy of urothelial  carcinoma and melanoma with using anti-PD1/PD-L1.
+## Step 4: Inspect the output file.
+After executing the aforementioned R script, you will obtain a file named "Output_file.csv"; "response_probability" denotes the anti-PD1/PD-L1 response probability of patients with hepatocellular carcinoma, with higher response probability indicating better prognosis. Our model might also be applicable in the immunotherapy of urothelial  carcinoma and melanoma with using anti-PD1/PD-L1.
 
 
 
